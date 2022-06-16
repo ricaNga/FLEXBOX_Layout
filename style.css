@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+main{
+    height: 1440px;
+    margin: 200px;
+}
+body{
+    color:  hsl(0, 0%, 95%);
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400px;
+    
+}
+
+h2{
+     margin: 20px;
+     font-size: 20px;
+ }
+
+ button{
+     border-radius: 15px;
+     background-color: hsl(0, 0%, 95%);
+     padding: 10px;
+     margin-top: 30px;
+ }
+.flex-container {
+    display: flex;
+    background-color: hsla(0, 0%, 100%, 0.75);
+  }
+  
+  .flex-container > div {
+    
+    padding: 40px;
+    
+  }
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+.darkcyan{
+    background-color: hsl(184, 100%, 22%);
+}
+.vertcyan{
+    background-color: hsl(179, 100%, 13%);
+}
